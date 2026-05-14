@@ -1,0 +1,30 @@
+# Dataset and model outputs (large, generated)
+SECOND_dataset/
+second_model_output/
+base_model_output/
+segformer_finetuned_change_bridge/
+checkpoint-*/
+*.rar
+*.zip
+*.pt
+*.bin
+*.safetensors
+
+# Generated images
+qualitative_grid*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
